@@ -44,6 +44,7 @@ namespace BookStore_API.Data
                     .HasForeignKey(d => d.AuthorId)
                     .HasConstraintName("FK_Books_Authors");
             });
+            base.OnModelCreating(modelBuilder);
 
         }
 

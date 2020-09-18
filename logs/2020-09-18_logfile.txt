@@ -3,3 +3,22 @@
 2020-09-18 18:59:28.6723 WARN Warn
 2020-09-18 18:59:36.4487 ERROR Delete
 2020-09-18 18:59:41.1697 ERROR Delete
+2020-09-18 20:54:28.8316 INFO Start to Get Authors
+2020-09-18 20:54:29.6526 ERROR The entity type 'IdentityUserLogin<string>' requires a primary key to be defined. If you intended to use a keyless entity type call 'HasNoKey()'. 
+2020-09-18 20:55:52.8458 INFO Start to Get Authors
+2020-09-18 20:56:59.6463 INFO Start to Get Authors
+2020-09-18 21:01:07.6649 INFO Start to Get Authors
+2020-09-18 21:01:35.4752 INFO Start to Get Authors
+2020-09-18 21:01:42.2636 INFO Get Authors succeeded
+2020-09-18 21:20:09.7435 ERROR Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Object -> Author
+System.Object -> BookStore_API.Data.Author 
+2020-09-18 21:20:14.7016 ERROR Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Object -> Author
+System.Object -> BookStore_API.Data.Author 
+2020-09-18 21:25:05.3852 INFO Start to Get Authors
+2020-09-18 21:25:05.7160 INFO Get Authors succeeded

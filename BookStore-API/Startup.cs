@@ -18,6 +18,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.OpenApi.Models;
 using AutoMapper;
+using BookStore_API.Mappings;
 
 namespace BookStore_API
 {
@@ -68,6 +69,7 @@ namespace BookStore_API
             });
 
             services.AddSingleton(typeof(ILoggerService), typeof(LoggerService));
+            services.AddScoped(typeof(IAuthorRepository), typeof(AuthorRepository));
 
             services.AddControllers();
         }
