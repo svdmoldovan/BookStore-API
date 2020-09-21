@@ -1,0 +1,46 @@
+2020-09-21 12:25:42.5321 INFO Accessed Home Get Controller
+2020-09-21 12:53:53.4253 ERROR Value cannot be null. (Parameter 'userName')   at Microsoft.AspNetCore.Identity.UserManager`1.FindByNameAsync(String userName)
+   at Microsoft.AspNetCore.Identity.SignInManager`1.PasswordSignInAsync(String userName, String password, Boolean isPersistent, Boolean lockoutOnFailure)
+   at BookStore_API.Controllers.UsersController.Login(UserDTO userDTO) in C:\Users\daniel.moldovan\source\repos\Blazor\BookStore-API\BookStore-API\Controllers\UsersController.cs:line 40
+2020-09-21 12:54:18.2179 ERROR Value cannot be null. (Parameter 'userName')   at Microsoft.AspNetCore.Identity.UserManager`1.FindByNameAsync(String userName)
+   at Microsoft.AspNetCore.Identity.SignInManager`1.PasswordSignInAsync(String userName, String password, Boolean isPersistent, Boolean lockoutOnFailure)
+   at BookStore_API.Controllers.UsersController.Login(UserDTO userDTO) in C:\Users\daniel.moldovan\source\repos\Blazor\BookStore-API\BookStore-API\Controllers\UsersController.cs:line 40
+2020-09-21 12:55:35.9317 WARN User DTO is null
+2020-09-21 12:56:05.5727 WARN Sign in failed
+2020-09-21 12:56:10.5239 WARN Sign in failed
+2020-09-21 12:56:35.9147 WARN Sign in failed
+2020-09-21 12:56:54.1672 WARN Sign in failed
+2020-09-21 12:57:41.2524 WARN Sign in failed
+2020-09-21 13:57:42.2192 INFO Books - GetBooks: Attempted Call
+2020-09-21 13:57:42.3884 INFO Books - GetBooks: Successful
+2020-09-21 13:59:54.6252 INFO Books - Create: Create Attempted
+2020-09-21 13:59:55.1366 ERROR Books - Create: An error occurred while updating the entries. See the inner exception for details. - Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_Books_Authors". The conflict occurred in database "BookStore", table "dbo.Authors", column 'Id'.
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__164_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__274_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:c2626859-cb08-41e9-b4a3-214ec30fd5ce
+Error Number:547,State:0,Class:16
+2020-09-21 14:01:25.9725 INFO Books - Create: Create Attempted
+2020-09-21 14:01:51.1866 INFO Books - Create: Creation was successful
+2020-09-21 14:05:20.1889 INFO Authors - GetAuthors: Attempted Call
+2020-09-21 14:05:20.2482 INFO Authors - GetAuthors: Successful
+2020-09-21 14:05:51.1942 INFO Books - Create: Create Attempted
+2020-09-21 14:05:58.2204 INFO Books - Create: Creation was successful
+2020-09-21 14:06:19.3057 INFO Books - GetBooks: Attempted Call
+2020-09-21 14:06:19.3436 INFO Books - GetBooks: Successful
+2020-09-21 14:06:32.8690 INFO Books - GetBooks: Attempted Call
+2020-09-21 14:07:04.4808 INFO Books - GetBooks: Successful
+2020-09-21 14:10:34.2838 INFO Books - GetBooks: Attempted Call
+2020-09-21 14:10:34.5646 INFO Books - GetBooks: Successful
+2020-09-21 14:10:54.2829 INFO Books - GetBook: Attempted Call for id: 2
+2020-09-21 14:10:54.3239 INFO Books - GetBook: Successfully got record with id: 2

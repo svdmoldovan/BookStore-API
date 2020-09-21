@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using BookStore_API.DTOs;
 
 namespace BookStore_API.Mappings
 {
